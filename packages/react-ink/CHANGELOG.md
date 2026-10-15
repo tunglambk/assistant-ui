@@ -1,5 +1,14 @@
 # @assistant-ui/react-ink
 
+## 0.0.51
+
+### Patch Changes
+
+- [#9585](https://github.com/assistant-ui/assistant-ui/pull/9585) [`3e6f6a1`](https://github.com/assistant-ui/assistant-ui/commit/3e6f6a12617d3cd61926bf42761cc1f77db147e3) - fix: complete OSC 99 notifications so terminals display each alert independently. ([@Kinfe123](https://github.com/Kinfe123))
+- Updated dependencies [[`b78a043`](https://github.com/assistant-ui/assistant-ui/commit/b78a0436faf8361323cd2fbb23362aee65867e09), [`b88d62d`](https://github.com/assistant-ui/assistant-ui/commit/b88d62d6d944efff99134508696ef51c922dc2ff), [`5588bfb`](https://github.com/assistant-ui/assistant-ui/commit/5588bfb975dca65f0304fe9af5f77f11837ad89e), [`55d065c`](https://github.com/assistant-ui/assistant-ui/commit/55d065c8036c948b56c328cf1f780ce2f81180b8), [`61aaccf`](https://github.com/assistant-ui/assistant-ui/commit/61aaccfe1d21aa1d5f939802713aff469c8818e6), [`43c9c7c`](https://github.com/assistant-ui/assistant-ui/commit/43c9c7cc2fdbbc0f99a9fd479ed9fb24d77947f2), [`1091bbc`](https://github.com/assistant-ui/assistant-ui/commit/1091bbc273c2c7d453a3f959a56209a11c43e341), [`01225b9`](https://github.com/assistant-ui/assistant-ui/commit/01225b99661556557ca4d79f2d9c43c5db3588e5), [`6537c5f`](https://github.com/assistant-ui/assistant-ui/commit/6537c5f02691650d8d360f92b7e5b41f55f060de), [`2217804`](https://github.com/assistant-ui/assistant-ui/commit/2217804cce3bd143689047af8ea7bee4099e9a54), [`7ba7c54`](https://github.com/assistant-ui/assistant-ui/commit/7ba7c54e66cfa58ae13a6b891b5b7a78ceacb93e), [`5197671`](https://github.com/assistant-ui/assistant-ui/commit/5197671ee14b965a8dd81da7f0365c31e3c4566c)]:
+  - @assistant-ui/core@0.3.29
+  - assistant-stream@0.3.52
+
 ## 0.0.50
 
 ### Patch Changes

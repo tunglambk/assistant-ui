@@ -1,5 +1,13 @@
 # assistant-stream
 
+## 0.3.52
+
+### Patch Changes
+
+- [#9697](https://github.com/assistant-ui/assistant-ui/pull/9697) [`b88d62d`](https://github.com/assistant-ui/assistant-ui/commit/b88d62d6d944efff99134508696ef51c922dc2ff) - Preserve explicit model content on settled tool results and send its text and media in data-stream requests. ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9713](https://github.com/assistant-ui/assistant-ui/pull/9713) [`01225b9`](https://github.com/assistant-ui/assistant-ui/commit/01225b99661556557ca4d79f2d9c43c5db3588e5) - fix: preserve incomplete status for server-aborted UI-message responses and discard buffered unfinished tool input. ([@Kinfe123](https://github.com/Kinfe123))
+
 ## 0.3.51
 
 ### Patch Changes

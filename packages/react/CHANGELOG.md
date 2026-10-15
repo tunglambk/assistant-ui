@@ -1,5 +1,20 @@
 # @assistant-ui/react
 
+## 0.15.29
+
+### Patch Changes
+
+- [#9613](https://github.com/assistant-ui/assistant-ui/pull/9613) [`6e17b3a`](https://github.com/assistant-ui/assistant-ui/commit/6e17b3a89531c630491ae99835fc87841c42fa3d) - fix: preserve pending attachment selections when unrelated assistant scopes change ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9602](https://github.com/assistant-ui/assistant-ui/pull/9602) [`c696c16`](https://github.com/assistant-ui/assistant-ui/commit/c696c162a093c25c569b7d9923723062f4d8f323) - fix: ignore an attachment picker's selection after the active thread changes, keeping files out of the replacement conversation. ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9586](https://github.com/assistant-ui/assistant-ui/pull/9586) [`2eb0447`](https://github.com/assistant-ui/assistant-ui/commit/2eb0447c2dc3fb0cb2c7841ca873e8655afa6f18) - feat: add OpenAIRealtimeVoiceAdapter for direct browser voice sessions with streamed transcripts, typed input, mute controls, and cancellable WebRTC setup. ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9252](https://github.com/assistant-ui/assistant-ui/pull/9252) [`1371e4f`](https://github.com/assistant-ui/assistant-ui/commit/1371e4f22f2bd018b6fb74c177595f63f7ae9f57) - Handle sparse MCP Apps message content without scanning array holes. ([@rupic-app](https://github.com/apps/rupic-app))
+- Updated dependencies [[`b78a043`](https://github.com/assistant-ui/assistant-ui/commit/b78a0436faf8361323cd2fbb23362aee65867e09), [`b88d62d`](https://github.com/assistant-ui/assistant-ui/commit/b88d62d6d944efff99134508696ef51c922dc2ff), [`5588bfb`](https://github.com/assistant-ui/assistant-ui/commit/5588bfb975dca65f0304fe9af5f77f11837ad89e), [`55d065c`](https://github.com/assistant-ui/assistant-ui/commit/55d065c8036c948b56c328cf1f780ce2f81180b8), [`61aaccf`](https://github.com/assistant-ui/assistant-ui/commit/61aaccfe1d21aa1d5f939802713aff469c8818e6), [`43c9c7c`](https://github.com/assistant-ui/assistant-ui/commit/43c9c7cc2fdbbc0f99a9fd479ed9fb24d77947f2), [`1091bbc`](https://github.com/assistant-ui/assistant-ui/commit/1091bbc273c2c7d453a3f959a56209a11c43e341), [`01225b9`](https://github.com/assistant-ui/assistant-ui/commit/01225b99661556557ca4d79f2d9c43c5db3588e5), [`6537c5f`](https://github.com/assistant-ui/assistant-ui/commit/6537c5f02691650d8d360f92b7e5b41f55f060de), [`2217804`](https://github.com/assistant-ui/assistant-ui/commit/2217804cce3bd143689047af8ea7bee4099e9a54), [`7ba7c54`](https://github.com/assistant-ui/assistant-ui/commit/7ba7c54e66cfa58ae13a6b891b5b7a78ceacb93e), [`5197671`](https://github.com/assistant-ui/assistant-ui/commit/5197671ee14b965a8dd81da7f0365c31e3c4566c)]:
+  - @assistant-ui/core@0.3.29
+  - assistant-stream@0.3.52
+
 ## 0.15.28
 
 ### Patch Changes

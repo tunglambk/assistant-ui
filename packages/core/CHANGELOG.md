@@ -1,5 +1,31 @@
 # @assistant-ui/core
 
+## 0.3.29
+
+### Patch Changes
+
+- [#9670](https://github.com/assistant-ui/assistant-ui/pull/9670) [`b78a043`](https://github.com/assistant-ui/assistant-ui/commit/b78a0436faf8361323cd2fbb23362aee65867e09) - fix: keep copy feedback when unrelated assistant scopes change ([@okisdev](https://github.com/okisdev))
+
+- [#9615](https://github.com/assistant-ui/assistant-ui/pull/9615) [`5588bfb`](https://github.com/assistant-ui/assistant-ui/commit/5588bfb975dca65f0304fe9af5f77f11837ad89e) - fix: prevent dictation from starting on a disabled thread ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9702](https://github.com/assistant-ui/assistant-ui/pull/9702) [`55d065c`](https://github.com/assistant-ui/assistant-ui/commit/55d065c8036c948b56c328cf1f780ce2f81180b8) - Keep external-store history copies up to date when an existing user message's attachments are added, removed, or changed. ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#9537](https://github.com/assistant-ui/assistant-ui/pull/9537) [`61aaccf`](https://github.com/assistant-ui/assistant-ui/commit/61aaccfe1d21aa1d5f939802713aff469c8818e6) - fix: settle pending deletes after reloads, branch switches, and edits ([@okisdev](https://github.com/okisdev))
+
+- [#9555](https://github.com/assistant-ui/assistant-ui/pull/9555) [`43c9c7c`](https://github.com/assistant-ui/assistant-ui/commit/43c9c7cc2fdbbc0f99a9fd479ed9fb24d77947f2) - Percent-decode base64 data URL payloads before forwarding them to model adapters, so escaped padding and alphabet characters are sent as bare base64. ([@Jun516](https://github.com/Jun516))
+
+- [#9639](https://github.com/assistant-ui/assistant-ui/pull/9639) [`1091bbc`](https://github.com/assistant-ui/assistant-ui/commit/1091bbc273c2c7d453a3f959a56209a11c43e341) - fix: report a still-initializing thread through `onThreadIdChange` once its remote id settles, instead of as `undefined` ([@okisdev](https://github.com/okisdev))
+
+- [#9642](https://github.com/assistant-ui/assistant-ui/pull/9642) [`6537c5f`](https://github.com/assistant-ui/assistant-ui/commit/6537c5f02691650d8d360f92b7e5b41f55f060de) - feat: report a failed thread switch, such as a URL-controlled `threadId` whose `fetch()` rejects, as `switchError` on the threads state, and retry a controlled switch when the browser comes back online or the tab becomes visible ([@okisdev](https://github.com/okisdev))
+
+- [#9551](https://github.com/assistant-ui/assistant-ui/pull/9551) [`2217804`](https://github.com/assistant-ui/assistant-ui/commit/2217804cce3bd143689047af8ea7bee4099e9a54) - fix(core): make an automatic title wait for an explicit title generation in flight and run only if that produced no title, so the thread list and the server end on the same title ([@okisdev](https://github.com/okisdev))
+
+- [#9556](https://github.com/assistant-ui/assistant-ui/pull/9556) [`7ba7c54`](https://github.com/assistant-ui/assistant-ui/commit/7ba7c54e66cfa58ae13a6b891b5b7a78ceacb93e) - fix(core): show the automatic title the server already saved when an explicit title generation fails or returns no title, and settle overlapping automatic titles on the newest one ([@okisdev](https://github.com/okisdev))
+
+- [#9575](https://github.com/assistant-ui/assistant-ui/pull/9575) [`5197671`](https://github.com/assistant-ui/assistant-ui/commit/5197671ee14b965a8dd81da7f0365c31e3c4566c) - fix: keep text sending available when voice setup ends synchronously ([@Kinfe123](https://github.com/Kinfe123))
+- Updated dependencies [[`b88d62d`](https://github.com/assistant-ui/assistant-ui/commit/b88d62d6d944efff99134508696ef51c922dc2ff), [`01225b9`](https://github.com/assistant-ui/assistant-ui/commit/01225b99661556557ca4d79f2d9c43c5db3588e5)]:
+  - assistant-stream@0.3.52
+
 ## 0.3.28
 
 ### Patch Changes
